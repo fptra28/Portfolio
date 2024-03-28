@@ -24,6 +24,7 @@
 .portfolio{
     height: fit-content;
     padding: 50px 250px;
+    background-color: #A80000;
 }
 .portfolio .title{
     color: white;
@@ -32,25 +33,67 @@
     font-size: 40px;
     font-weight: bolder;
 }
-.name-link{
-    background-color: #760000;
-    padding: 10px 20px;
-    justify-content: space-between;
-}
-.name-link p{
-    color: #fff;
-    font-weight: bold;
-}
-.name-link a{
-    text-decoration: none;
-    color: #eee;
-}
-.name-link a:hover{
-    color: #fff;
+.project-container{
+    margin-bottom: 35px;
 }
 .project{
     width: fit-content;
 }
+.project a{
+    text-decoration: none;
+    padding: 0px;
+}
+.bottom{
+    background-color: #760000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    height: fit-content;
+}
+.bottom:hover{
+    background-color: #5c0000;
+}
+.bottom h6{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bottom .viewmore{
+    color: #eee;
+    font-weight: normal;
+}
 .pict img{
     width: 450px;
 }
+.button button{
+    border: none;
+    outline: none;
+    height: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: #FF8080;
+}
+.button button:hover{
+    background-color: #FFBFBF;
+}
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
