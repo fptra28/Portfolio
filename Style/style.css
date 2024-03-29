@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
 .jumbotron{
     margin: 50px 250px;
 }
@@ -16,7 +21,7 @@
     border-radius: 100px;
 }
 .name{
-    font-size: 90px;
+    font-size: 85px;
 }
 .nav-link:hover{
     color: #A80000;
@@ -80,6 +85,24 @@
 }
 .button button:hover{
     background-color: #FFBFBF;
+}
+#about{
+    height: fit-content;
+    padding: 50px 250px;
+}
+#about .title, #toolsSkills{
+    margin-bottom: 60px;
+}
+#about .line-about{
+    height: 5px;
+    width: 180px;
+    background-color: #A80000;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+footer{
+    padding: 30px 250px;
+    box-shadow: ;
 }
 
 #scrollBtn {
