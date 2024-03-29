@@ -33,13 +33,15 @@
 }
 .portfolio .title{
     color: white;
+    margin-bottom: 45px;
 }
-.title h3{
+.portfolio .title h3{
     font-size: 40px;
     font-weight: bolder;
+    margin: 0px;
 }
 .project-container{
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 .project{
     width: fit-content;
@@ -90,8 +92,15 @@
     height: fit-content;
     padding: 50px 250px;
 }
-#about .title, #toolsSkills{
+#about .title, #about #toolsSkills{
     margin-bottom: 60px;
+}
+#about .title h3{
+    font-weight: bolder;
+    margin: 0px;
+}
+#about #toolsSkills{
+    gap: 85px;
 }
 #about .line-about{
     height: 5px;
@@ -102,8 +111,94 @@
 }
 footer{
     padding: 30px 250px;
-    box-shadow: ;
+    box-shadow: 0px 8px 10px rgb(41, 41, 41);
 }
+footer .navigation a{
+    color: black;
+}
+footer .navigation a:hover{
+    color: #A80000;
+}
+footer .line-gap-footer{
+    height: 2px;
+    width: 870px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+footer .copyright{
+    font-weight: bold;
+
+}
+/* About Page */
+#desc{
+    text-align: justify;
+    font-size: 21px;
+}
+.text{
+    margin-left: 80px;
+}
+.text button{
+    background-color: #A80000;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.text button:hover{
+    background-color: #760000;
+}
+#skill{
+    padding: 70px 250px;
+    color: #fff;
+    gap: 120px;
+}
+#skill .title h3{
+    font-weight: bolder;
+    margin: 0px;
+}
+#skill #toolsSkills{
+    gap: 75px;
+}
+#skill .line-about{
+    height: 5px;
+    width: 130px;
+    background-color: #FF8080;
+    margin-top: 15px;
+    border-radius: 100px;
+}
+#contact{
+    height: fit-content;
+    padding: 50px 250px;
+}
+#contact .title h3{
+    font-weight: bolder;
+    margin: 0px;
+}
+#contact .line-about{
+    height: 5px;
+    width: 180px;
+    background-color: #FF8080;
+    margin: 15px 0px 15px 0px;
+    border-radius: 100px;
+}
+.info .socmed{
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    background-color: #A80000;
+    border-radius: 15px;
+}
+.media a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.media a:hover{
+    color: #cccccc;
+}
+
 
 #scrollBtn {
     display: none;

@@ -14,7 +14,7 @@
 
 <body style="background-color: #eee;">
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-white px-5 py-0 sticky-top">
+    <nav class="navbar navbar-expand-lg bg-white px-5 py-0 sticky-top shadow-sm">
         <div class="container-fluid fw-bold">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
                 <img src="./Assets/logo Senfuri0n.png" height="70" alt="Logo">
@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto fs-5">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="./portfolio.hmtl">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="./about.html">ABOUT</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +53,7 @@
     </section>
     <!-- Portofolio -->
     <section class="portfolio">
-        <div class="title text-center d-flex justify-content-center flex-column mb-5">
+        <div class="title text-center d-flex justify-content-center flex-column">
             <h3>My Portfolio</h3>
             <div class="line-porto mx-auto"></div>
         </div>
@@ -103,11 +103,11 @@
     </section>
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="title text-center d-flex justify-content-center flex-column">
+        <div class="title text-center d-flex justify-content-center align-items-center flex-column">
             <h3>Tools & Skills</h3>
-            <div class="line-about mx-auto"></div>
+            <div class="line-about"></div>
         </div>
-        <div id="toolsSkills" class="d-flex flex-row justify-content-around align-items-center">
+        <div id="toolsSkills" class="d-flex flex-row justify-content-center align-items-center">
             <div id="tools" class="d-flex flex-column align-items-center row-gap-3">
                 <img src="./Assets/skill-icons_figma-dark.png" alt="Figma Icon">
                 <h6 class="fw-bold">Figma</h6>
@@ -139,8 +139,8 @@
             </a>
         </div>
     </section>
-    <footer class="text-center py-4 bg-light">
-        <div class="navigation">
+    <footer class="d-flex flex-column align-items-center gap-3">
+        <div class="navigation d-flex gap-3 fw-bold">
             <a class="text-decoration-none" href="#home">HOME</a>
             <a class="text-decoration-none" href="#home">PORTFOLIO</a>
             <a class="text-decoration-none" href="#home">ABOUT</a>
