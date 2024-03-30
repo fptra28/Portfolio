@@ -146,11 +146,13 @@
                 </div>
             </div>
             <div class="massage">
-                <form action="massage.php" method="post">
-                    <input type="text" id="name" name="name" placeholder="Name">
-                    <input type="email" id="email" name="email" placeholder="E-mail"><br>
-                    <input type="text" id="subject" name="subject" placeholder="Subject"><br>
-                    <textarea id="message" name="message" placeholder="Message"></textarea><br>
+                <form action="./php/massage.php" method="post" class="d-flex flex-column">
+                    <div class="address d-flex flex-row">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                        <input type="email" id="email" name="email" placeholder="E-mail">
+                    </div>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
                     <input type="submit" value="SEND MASSAGE">
                 </form>
             </div>

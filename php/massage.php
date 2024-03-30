@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $subject = $_POST["subject"];
     $message = $_POST["message"];
-    $to = "receiver@example.com"; // Ganti dengan alamat email penerima
+    $to = "akunbackup2816@gmail.com";
     $body = "Name: $name\nEmail: $email\nSubject: $subject\n\nMessage:\n$message";
     $headers = "From: $email";
 

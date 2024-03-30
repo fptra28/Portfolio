@@ -170,6 +170,7 @@ footer .copyright{
 }
 #contact{
     height: fit-content;
+    width: 100%;
     padding: 50px 250px;
 }
 #contact .title h3{
@@ -198,7 +199,44 @@ footer .copyright{
 .media a:hover{
     color: #cccccc;
 }
-
+.massage{
+    width: 1040px;
+    height: 450px;
+}
+form{
+    gap: 20px;
+}
+.address {
+    height: fit-content;
+    width: fit-content;
+    gap: 20px;
+}
+.address input{
+    width: 510px;
+}
+input[type="text"], input[type="email"]{
+    height: 64px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+}
+textarea{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 220px;
+}
+input[type="submit"]{
+    height: 42px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #A80000;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #760000;
+}
 
 #scrollBtn {
     display: none;
