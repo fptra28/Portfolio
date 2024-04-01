@@ -86,7 +86,8 @@
     background-color: #FF8080;
 }
 .button button:hover{
-    background-color: #FFBFBF;
+    background-color: #760000;
+    color: #fff;
 }
 #about{
     height: fit-content;
@@ -236,6 +237,65 @@ input[type="submit"]{
 input[type="submit"]:hover{
     cursor: pointer;
     background-color: #760000;
+}
+/* About Page */
+.body .title{
+    color: #fff;
+    padding: 85px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title h3{
+    margin: 0px;
+}
+.title .line-gap{
+    background-color: #760000;
+    width: 180px;
+    height: 5px;
+    border-radius: 50px;
+}
+.content{
+    padding: 65px 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-port{
+    flex: 1 0 calc(693px - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+    max-width: 683px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+}
+.project-port img{
+    width: 384px;
+    height: auto;
+}
+.project-port h5{
+    font-weight: bold;
+}
+.project-port .text{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-port:hover{
+    background-color: #e7e7e7;
+}
+.desc p{
+    text-align: justify;
+}
+.text .view{
+    color: #7c7c7c;
 }
 
 #scrollBtn {
